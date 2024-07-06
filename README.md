@@ -1,4 +1,15 @@
-# Getting Started with Create React App
+# 1. Json Server 설치와 시작
+
+### npm install -g json-server
+### json-server --watch .\src\db\data.json --port 3001 
+
+
+# 2. Create-react-app로 만든 프로젝트에 타입스크립트 적용
+
+### npm install typescript @types/node @types/react @types/react-dom @types/jest @types/react-reouter-dom
+
+
+# 3. Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
