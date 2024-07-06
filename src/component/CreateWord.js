@@ -4,7 +4,8 @@ import { useNavigate } from 'react-router-dom'; // useNavigate를 react-router-d
 import { useState } from 'react';
 
 export default function CreateWord() {
-    const days = useFetch('http://localhost:3001/days');
+    const days = useFetch('https://3001-acmexii-reactsample-0jw6vcwv2it.ws-us115.gitpod.io/days');
+    // const days = useFetch('http://localhost:3001/days');
     const navigate = useNavigate();
     const [isLoading, setIsLoading] = useState(false);
 
@@ -14,7 +15,7 @@ export default function CreateWord() {
         if (!isLoading) {
             setIsLoading(true);
 
-            fetch(`http://localhost:3001/words/`, {
+            fetch('https://3001-acmexii-reactsample-0jw6vcwv2it.ws-us115.gitpod.io/words', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',

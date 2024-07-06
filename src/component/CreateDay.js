@@ -3,10 +3,11 @@ import { useNavigate } from 'react-router-dom'; // useNavigate를 react-router-d
 
 export default function CreateDay() {
     const navigate = useNavigate();
-    const days = useFetch('http://localhost:3001/days');
+    // const days = useFetch('http://localhost:3001/days');
+    const days = useFetch('https://3001-acmexii-reactsample-0jw6vcwv2it.ws-us115.gitpod.io/days');
 
     function addDay() {
-        fetch(`http://localhost:3001/days/`, {
+        fetch(`https://3001-acmexii-reactsample-0jw6vcwv2it.ws-us115.gitpod.io/days/`, {
             method: 'POST',
         headers: {
             'Content-Type': 'application/json',
