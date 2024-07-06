@@ -1,0 +1,61 @@
+{
+  "days": [
+    {
+      "id": "1",
+      "day": "1"
+    },
+    {
+      "id": "2",
+      "day": "2"
+    },
+    {
+      "id": "3",
+      "day": "3"
+    },
+    {
+      "id": "d108",
+      "day": 4
+    },
+    {
+      "id": "9c54",
+      "day": 5
+    }
+  ],
+  "words": [
+    {
+      "id": "3",
+      "day": 3,
+      "eng": "orange",
+      "kor": "오렌지",
+      "isDone": false
+    },
+    {
+      "id": "41a9",
+      "day": "4",
+      "eng": "cup",
+      "kor": "컵",
+      "isDone": false
+    },
+    {
+      "id": "64ca",
+      "day": "5",
+      "eng": "ruler",
+      "kor": "자",
+      "isDone": true
+    },
+    {
+      "id": "7a7e",
+      "day": "1",
+      "eng": "Glasses",
+      "kor": "안경",
+      "isDone": false
+    },
+    {
+      "id": "0c09",
+      "day": "1",
+      "eng": "Notebook",
+      "kor": "노트북",
+      "isDone": false
+    }
+  ]
+}
