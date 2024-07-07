@@ -1,7 +1,7 @@
-# 1. Json Server 설치와 시작
+# 1. Install Json Server & start
 
-### npm install -g json-server
-### json-server --watch .\src\db\data.json --port 3001 
+#### npm install -g json-server
+#### json-server --watch .\src\db\data.json --port 3001 
 
 
 # 2. Create-react-app로 만든 프로젝트에 타입스크립트 적용
