@@ -1,11 +1,11 @@
-# Prerequisite, Create React Project by NPX
+### Create React Project by NPX Cmd
 npx is a tool that installs packages uploaded to npm by directly executing them.
 - e.g.> npx create-react-app voca
 - All folders are automatically created, Also Webpack and Babel are set up and created.
 - node_modules is a project execution dependency folder.
 - If package.json is not modified, it can be reinstalled with the 'npm install' command.
 
-# Prerequisite, Install Json Server & start
+### Install Json Server & start
 - npm install -g json-server
 - json-server --watch .\src\db\data.json --port 3001 
 
